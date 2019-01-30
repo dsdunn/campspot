@@ -1,14 +1,3 @@
-const fs = require('fs');
-
-fs.readFile(process.argv[2], 'utf-8', (error, data) => {
-  if(error){
-    console.log(error);
-  }
-  else {
-    console.log(availableSites(JSON.parse(data)));
-  }
-});
-
 const availableSites = (searchObj) => {
 
   const searchStart = new Date(searchObj.search.startDate).getTime();

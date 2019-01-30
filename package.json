@@ -2,7 +2,7 @@
   "name": "campspot",
   "version": "1.0.0",
   "description": "",
-  "main": "campsites.js",
+  "main": "search.js",
   "scripts": {
     "test": "mocha"
   },
