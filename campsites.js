@@ -47,3 +47,4 @@ const availableSites = (searchObj) => {
   return openSites;
 }
 
+module.exports = availableSites;

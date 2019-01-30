@@ -4,7 +4,7 @@
   "description": "",
   "main": "campsites.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
     "url": "https://github.com/dsdunn/campspot/issues"
   },
   "homepage": "https://github.com/dsdunn/campspot#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
