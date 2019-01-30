@@ -22,10 +22,10 @@ const availableSites = (searchObj) => {
         break;
       }
       if (searchStart < resStart) {
-        if (searchEnd === resStart - (2 * day) || searchEnd > resStart) {
+        if (searchEnd === resStart - (2 * day) || searchEnd >= resStart) {
           available = false;
         }
-      } else if (searchStart < resEnd || searchStart === resEnd + (2 * day)) {
+      } else if (searchStart <= resEnd || searchStart === resEnd + (2 * day)) {
         available = false;
       }
     }
